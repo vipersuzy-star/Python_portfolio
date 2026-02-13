@@ -44,16 +44,16 @@ Implemented in two versions to compare classic conditional logic with modern str
 
 ## Project Structure
 
+```
+
 Python_portfolio/
-└── grade_calculator/
-    ├── README.md                       # Project documentation (this file)
-    ├── solution_if_version.py          # if/elif/else implementation
-    ├── solution_match_version.py       # match-case implementation
-    ├── output_example_if.png           # screenshot of colorful output from if-version
-    └── output_example_match.png        # screenshot of colorful output from match-case version
-
-
-
+└── TASK2_grade_calculator/
+    ├── README.md                       # This documentation file
+    ├── solution_if_version.py          # Classic if/elif/else version
+    ├── solution_match_version.py       # Modern match-case version (Python 3.10+)
+    ├── output_example_if.png           # Example output screenshot (if version)
+    └── output_example_match.png        # Example output screenshot (match version)
+```
 ## Example Output
 
 ### If / Elif / Else Version
