@@ -41,8 +41,6 @@ TASK3_guess_the_number/
 
 ## Example Gameplay
 
-## Example Gameplay
-
 Here's a short example of how the game looks when running (medium difficulty, successful guess):
 
 ```text
@@ -74,15 +72,16 @@ Current top 5 rankings:
 5. Suzana    | 4 attempts | Win  | Number: 88   (from previous game)
 
 Play again? (y/n): 
+```
 
 ## What This Project Practices
 
-Random number generation (random module)
-While loops and counters
-Input validation with try / except
-File reading and writing (open, with, append mode "a")
-List slicing to show recent lines (lines[-5:])
-Clean output formatting with f-strings
+- Random number generation (random module)
+- While loops and counters
+- Input validation with try / except
+- File reading and writing (open, with, append mode "a")
+-  slicing to show recent lines (lines[-5:])
+- output formatting with f-strings
 
 ## Author
 
@@ -90,9 +89,7 @@ Suzana Babarci
 Python learning portfolio – 2026
 GitHub: vipersuzy-star
 X: @AnaBabarci
-  Feel free to play it, fork it, or suggest new features! 
-
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+ Feel free to play it, fork it, or suggest new features! 
 
 
 
