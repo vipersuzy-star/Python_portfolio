@@ -28,19 +28,52 @@ You have 10 attempts to guess a secret number between 1 and 1000. Includes name 
 
  (On some systems use python3 instead of python)The file ranking.txt will be created automatically when you finish your first game.
 
-## Folder Structure
+## Projects Structure
 
-Python_portfolio/
-└── TASK3_guess_the_number/
-    ├── guess_the_number_advanced.py     # the game script
-    ├── ranking.txt                      # created automatically (example rankings)
-    ├── README.md                        # this file
-    └── output_example_guess.png         # screenshot of the game running
+```
+
+TASK3_guess_the_number/
+├── README.md                        # This documentation
+├── guess_the_number_advanced.py     # The main game script
+├── ranking.txt                      # Generated automatically on first play (rankings)
+└── output_example_guess.png         # Screenshot example of gameplay
+```
 
 ## Example Gameplay
 
-Gameplay Screenshot
-(Your screenshot showing up to 5 attempts – you can replace it later with a full game if you want)
+## Example Gameplay
+
+Here's a short example of how the game looks when running (medium difficulty, successful guess):
+
+```text
+Welcome to Guess The Number! 🎉
+What's your name? Suzana
+
+I've thought of a number between 1 and 1000. You have up to 10 attempts!
+
+Guess a number: 500
+Too high! ↓   Attempts left: 9
+
+Guess a number: 250
+Too low! ↑    Attempts left: 8
+
+Guess a number: 375
+Too high! ↓   Attempts left: 7
+
+Guess a number: 300
+Too low! ↑    Attempts left: 6
+
+Guess a number: 340
+Congratulations, Suzana! 🎯 You guessed the number (340) in 5 attempts!
+
+Current top 5 rankings:
+1. Suzana    | 5 attempts | Win  | Number: 340
+2. PlayerX   | 7 attempts | Win  | Number: 712
+3. Anonymous | 8 attempts | Win  | Number: 199
+4. TestUser  | 10 attempts| Win  | Number: 555
+5. Suzana    | 4 attempts | Win  | Number: 88   (from previous game)
+
+Play again? (y/n): 
 
 ## What This Project Practices
 
@@ -58,6 +91,10 @@ Python learning portfolio – 2026
 GitHub: vipersuzy-star
 X: @AnaBabarci
   Feel free to play it, fork it, or suggest new features! 
+
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+
+
 
 
 
