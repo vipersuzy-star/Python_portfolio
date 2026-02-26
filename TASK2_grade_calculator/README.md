@@ -6,6 +6,7 @@ Implemented in two versions to compare classic conditional logic with modern str
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat&logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 ![Last Commit](https://img.shields.io/github/last-commit/vipersuzy-star/Python_portfolio?style=flat)
+
 Accepts scores as integers or decimals (e.g. 88.5)
 Validates input: must be number between 0 and 100
 Two implementation approaches:Classic if/elif/else
